@@ -8,6 +8,7 @@
 
 .white-bg {
   background: var(--white-color);
+  color: var(--primary-color);
 }
 
 .main-content {
@@ -22,4 +23,13 @@
 
 .menu-spacing {
   height: 65px;
+}
+
+.top3-content {
+  max-width: 64rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
